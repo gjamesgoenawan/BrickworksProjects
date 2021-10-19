@@ -3,23 +3,22 @@ def compute(text):
     temp = 0
     current_sign = "+"
     for i in text:
-        if i in "+-*/=":
+        if i in "+-=":
             if current_sign == "+":
                 current = current + temp
             if current_sign == "-":
                 current = current - temp
-            if current_sign == "*":
-                current = current * temp
-            if current_sign == "/":
-                current = current / temp    
             temp = 0
             if i == "=":
                 return current
             else:
                 current_sign = i
 
-        else:
+        elif i.isdigit():
             temp = temp * 10 + int(i)
+
+        else:
+            return "Unrecognized Operations"
             
 
 
@@ -38,5 +37,3 @@ if a[len(a)-1] != "=":
     a = a + "="
 
 print(compute(a))
-
-
