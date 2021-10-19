@@ -3,7 +3,9 @@ def compute(text):
     temp = 0
     current_sign = "+"
     for i in text:
-        if i in "+-=":
+        if i == " ":
+            continue
+        elif i in "+-=":
             if current_sign == "+":
                 current = current + temp
             if current_sign == "-":
