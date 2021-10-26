@@ -1,7 +1,7 @@
 # Python Challenges
 
 1. First5Letters:
-Create an Algorithm to print only the first 5 letter of the input.
+Create an Algorithm to print only the first 5 Characters of the input. If the input is less than 5 Characters, print them all!
 ```
 Input: abcdefghijklmn
 Output: abcde
@@ -16,7 +16,7 @@ Can you create an algorithm to differentiate if a letter is a vowel?
 Input: a
 Output: is a vowel
 
-Input: -5.6
+Input: c
 Output: is not a vowel
 ```
 
