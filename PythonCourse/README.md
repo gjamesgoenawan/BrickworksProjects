@@ -1,6 +1,6 @@
-33# Python Course for Brickworks Coding Camp
+# Python Course for Brickworks Coding Camp
  
-Created by Gabriel James Goenawan
+Created by [Gabriel James Goenawan](https://www.linkedin.com/in/gjamesgoenawan/)
 
 Resources to be used:
 1. [Python Download](https://python.org)
