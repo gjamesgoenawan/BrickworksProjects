@@ -2,7 +2,7 @@
  
 Created by Gabriel James Goenawan
 
-A sample game designed to teach the basic of python. <br>
+A sample game designed to teach the basics of python. <br>
 Word list retrieved from `word_list.txt`.<br><br>
 
 Concepts:
