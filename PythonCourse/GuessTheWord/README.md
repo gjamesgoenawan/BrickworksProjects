@@ -1,4 +1,4 @@
-# Guess the Word Game
+# Test Your Intelligence Game
  
 Created by Gabriel James Goenawan
 
